@@ -18,8 +18,8 @@ Uygulama, kullanıcıların günlük tükettikleri yemekleri ve kalori bilgileri
   
 ##Uygulama Görselleri
 <p align="center">
-  <img src="resim1.jpg" width="250">
-  <img src="resim2.jpg" width="250">
+  <img src="WhatsApp Image 2026-01-07 at 22.06.25.jpeg" width="250">
+  <img src="WhatsApp Image 2026-01-07 at 22.06.29.jpeg" width="250">
 </p>
 
 ## Kurulum
