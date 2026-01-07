@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yemek / Kalori Takip"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tarih Seç"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/editYemek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yemek Adı"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerOgun"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/editKalori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kalori"
+        android:inputType="number"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EKLE"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnSil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SİL"
+        android:layout_marginTop="6dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtToplam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toplam Kalori: 0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <ListView
+        android:id="@+id/listViewYemekler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />.
+</LinearLayout>
